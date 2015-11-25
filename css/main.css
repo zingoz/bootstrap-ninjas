@@ -6,6 +6,16 @@ html {
 body {
   margin-bottom: 60px;
   background-color: #F0F0F0;
+  font-family: 'Droid Sans', sans-serif;
+  color: #4F4F4F;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.3em;
 }
 
 .footer {
