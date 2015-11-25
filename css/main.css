@@ -5,6 +5,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #F0F0F0;
 }
 
 .footer {
@@ -13,4 +14,47 @@ body {
   width: 100%;
   height: 60px;
   background-color: #232323;
+}
+
+/* bootstrap overrides */
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+li > a:hover {
+  color: #FFF;
+}
+
+button > a:hover {
+  color: #FFF
+}
+
+.navbar {
+  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  border-radius: 0px;
+}
+
+.navbar-inverse {
+  background-color: #232323;
+  border-color: #C0C0C0;
+}
+
+ul > li.active {
+  color: #232323;
+  background-color: #C0C0C0;
+}
+
+.btn-primary {
+  background-color: #C3BB38;
+  border-color: #C3BB38;
+}
+
+.btn-primary:hover {
+  background-color: #5C5C5C;
+  border-color: #5C5C5C;
 }
