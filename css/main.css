@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  margin-bottom: 205px;
+  margin-bottom: 360px;
   background-color: #F0F0F0;
   font-family: 'Droid Sans', sans-serif;
   color: #4F4F4F;
@@ -31,9 +31,11 @@ p {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 205px;
+  height: 360px;
+  color: #FFF;
   background-color: #232323;
   border-top: 15px solid #C3BB38;
+  text-align: center;
 }
 
 .topContainer {
@@ -131,6 +133,7 @@ ul > li.active {
 
 .img-responsive {
   width: 80%;
+  margin-bottom: 30px;
   border: 8px solid #C3BB38;
   background-color: #E3D93B;
   padding: 4px;
@@ -140,8 +143,7 @@ ul > li.active {
 
 .btn-primary {
   display: block;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 20px auto;
   padding: 20px;
   background-color: #C3BB38;
   border-color: #C3BB38;
@@ -153,4 +155,8 @@ ul > li.active {
 .btn-primary:hover {
   background-color: #5C5C5C;
   border-color: #5C5C5C;
+}
+
+.form-group {
+  margin-top: 10px;
 }
