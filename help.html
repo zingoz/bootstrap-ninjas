@@ -3,36 +3,61 @@
   <head>
     <meta charset="utf-8">
     <title>Bootstrap-Ninjas - Website Help</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <div class="container">
-      <header class="page-header">
-        <img src="img/CODE-NINJA_logo2.png" alt="Code-Ninjas Logo">
-        <ul class="nav nav-tabs">
-          <li><a href="index.html">HEM</a></li>
-          <li class="active"><a href="help.html">WEBSITE HELP</a></li>
-          <li><a href="blog.html">BLOGG</a></li>
-          <li><a href="about.html">OM OSS</a></li>
-          <li><a href="contact.html">KONTAKT</a></li>
-        </ul>
-      </header>
-
-      <main>
-        <h2>Website Help</h2>
-        <p><em>Det enkla sättet att få en ny hemsida.</em></p>
-        <p>Vi erbjuder hjälp med din hemsida. Vi kommunicerar under hela processen med er, och ger oss inte förrän ni är nöjda!</p>
-        <h3><em>Ny hemsida från grunden</em></h3>
-        <p><em>Är ni ett nytt företag som vill komma igång?</em></p>
-        <p>Lugn, vi hjälper er med den senaste designen, hosting och uppdatering - allt för att er sida skall hållas relevant hela tiden!</p>
-        <h3><em>Renovering av existerande hemsida</em></h3>
-        <p><em>Känns er existerande hemsida gammal och grå, och inte riktigt up to date?</em></p>
-        <p>Oroa dig inte, vi erbjuder också en totalrenovering och uppdaterar er hemsida så den använder sig av det senaste designspråket!</p>
-        <img src="img/ninjadivider2.png" alt="Ninja Text Divider">
-      </main>
-
-      <footer><h2>Hör av dig till oss!</h2></footer>
+    <div class="topContainer">
+      <div class="container">
+        <header class="page-header">
+          <img src="img/CODE-NINJA_logo2.png" alt="Code-Ninjas Logo" class="headerLogo">
+          <nav class="navbar navbar-inverse">
+            <ul class="nav nav-tabs nav-justified">
+              <li><a href="index.html">HEM</a></li>
+              <li class="active"><a href="help.html">WEBSITE HELP</a></li>
+              <li><a href="blog.html">BLOGG</a></li>
+              <li><a href="about.html">OM OSS</a></li>
+              <li><a href="contact.html">KONTAKT</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
     </div>
+
+    <div class="container">
+      <main>
+        <div class="col-md-12 ">
+          <h2>Website Help</h2>
+          <p><em>Det enkla sättet att få en ny hemsida.</em></p>
+          <p>Vi erbjuder hjälp med din hemsida. Vi kommunicerar under hela processen med er, och ger oss inte förrän ni är nöjda!</p>
+        </div>
+
+        <div class="col-md-12">
+          <h3><em>Ny hemsida från grunden</em></h3>
+          <p><em>Är ni ett nytt företag som vill komma igång?</em></p>
+          <p>Lugn, vi hjälper er med den senaste designen, hosting och uppdatering - allt för att er sida skall hållas relevant hela tiden!</p>
+        </div>
+
+        <div class="col-md-12">
+          <h3><em>Renovering av existerande hemsida</em></h3>
+          <p><em>Känns er existerande hemsida gammal och grå, och inte riktigt up to date?</em></p>
+          <p>Oroa dig inte, vi erbjuder också en totalrenovering och uppdaterar er hemsida så den använder sig av det senaste designspråket!</p>
+        </div>
+
+      </main>
+    </div>
+    
+    <div class="container ninjaDividerDiv">
+      <img src="img/ninjadivider2.png" class="ninjaDivider" alt="Ninja Text Divider">
+    </div>
+
+    <footer class="footer col-md-12">
+      <div class="container">
+        <h2>Hör av dig till oss!</h2>
+      </div>
+    </footer>
+
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
     <script src="js/bootstrap.js" charset="utf-8"></script>

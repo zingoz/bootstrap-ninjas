@@ -3,34 +3,54 @@
   <head>
     <meta charset="utf-8">
     <title>Bootstrap-Ninjas - Hem</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <div class="container">
-      <header class="page-header">
-        <img src="img/CODE-NINJA_logo2.png" alt="Code-Ninjas Logo">
-        <ul class="nav nav-tabs">
-          <li class="active"><a href="index.html">HEM</a></li>
-          <li><a href="help.html">WEBSITE HELP</a></li>
-          <li><a href="blog.html">BLOGG</a></li>
-          <li><a href="about.html">OM OSS</a></li>
-          <li><a href="contact.html">KONTAKT</a></li>
-        </ul>
-      </header>
+    <div class="topContainer">
+      <div class="container">
+        <header class="page-header">
+          <img src="img/CODE-NINJA_logo2.png" alt="Code-Ninjas Logo" class="headerLogo">
+          <nav class="navbar navbar-inverse">
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a href="index.html">HEM</a></li>
+              <li><a href="help.html">WEBSITE HELP</a></li>
+              <li><a href="blog.html">BLOGG</a></li>
+              <li><a href="about.html">OM OSS</a></li>
+              <li><a href="contact.html">KONTAKT</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
     </div>
+
     <div class="container">
       <main>
-        <h2>Välkommen till Code-Ninjas!</h2>
-        <p><em>Vi har hjälpt företag skapa och renovera hemsidor sedan 2015!</em></p>
-        <h3>Nystartat företag</h3>
-        <p>Har du ett nystartat företag som behöver det där lilla extra för att slå igenom på nätet?</p>
-        <h3>Renovering av hemsida</h3>
-        <p>Behöver du hjälp med att uppdatera en existerande hemsida som känns gammal och grå?</p>
-        <img src="img/ninjadivider2.png" alt="Ninja Text Divider">
+        <div class="col-md-12">
+          <h2>Välkommen till Code-Ninjas!</h2>
+          <p><em>Vi har hjälpt företag skapa och renovera hemsidor sedan 2015!</em></p>
+        </div>
+
+        <div class="col-md-12">
+          <h3>Nystartat företag</h3>
+          <p>Har du ett nystartat företag som behöver det där lilla extra för att slå igenom på nätet?</p>
+        </div>
+
+        <div class="col-md-12">
+          <h3>Renovering av hemsida</h3>
+          <p>Behöver du hjälp med att uppdatera en existerande hemsida som känns gammal och grå?</p>
+        <button type="button" class="btn btn-primary btn-lg"><a href="help.html">Läs mer om våra tjänster</a></button>
+        </div>
+
       </main>
     </div>
-    <footer class="footer">
+
+    <div class="container ninjaDividerDiv">
+      <img src="img/ninjadivider2.png" class="ninjaDivider" alt="Ninja Text Divider">
+    </div>
+
+    <footer class="footer col-md-12">
       <div class="container">
         <h2>Hör av dig till oss!</h2>
       </div>
