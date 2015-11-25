@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+  margin-bottom: 205px;
   background-color: #F0F0F0;
   font-family: 'Droid Sans', sans-serif;
   color: #4F4F4F;
@@ -31,8 +31,9 @@ p {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 205px;
   background-color: #232323;
+  border-top: 15px solid #C3BB38;
 }
 
 .topContainer {
@@ -128,6 +129,14 @@ ul > li.active {
 
 }
 
+.img-responsive {
+  width: 80%;
+  border: 8px solid #C3BB38;
+  background-color: #E3D93B;
+  padding: 4px;
+  border-radius: 10px;
+  display: inline;
+}
 
 .btn-primary {
   display: block;
