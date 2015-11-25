@@ -34,11 +34,40 @@ p {
 
 /* bootstrap overrides */
 
-
+.page-header {
+  border-bottom: 15px solid #C3BB38;
+  padding-bottom: 0px;
+  margin: 0px;
+}
 
 a {
   color: #FFF;
   text-decoration: none;
+}
+
+.active > a {
+  background-color: #C0C0C0;
+}
+
+.nav-tabs.nav-justified > li > a {
+  border-bottom: 0px;
+  border-radius: 0px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #232323;
+  cursor: default;
+  background-color: #C0C0C0;
+  border: 0px;
+  border-bottom-color: transparent;
+}
+
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+  border-bottom: 0px;
+}
+
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+     border: 0px;
 }
 
 li > a:hover {
@@ -55,6 +84,9 @@ button > a:hover {
   font-weight: 800;
   font-size: 15px;
   border-radius: 0px;
+  margin-bottom: 10px;
+  min-height: 0px;
+  border-bottom: 6px solid #C0C0C0;
 }
 
 .headerLogo {
@@ -65,13 +97,15 @@ button > a:hover {
 
 .navbar-inverse {
   background-color: #232323;
-  border-color: #C0C0C0;
 }
 
 ul > li.active {
   color: #232323;
   background-color: #C0C0C0;
+  padding: 0px;
+
 }
+
 
 .btn-primary {
   background-color: #C3BB38;
