@@ -10,6 +10,15 @@ body {
   color: #4F4F4F;
 }
 
+main {
+  border-top: 5px solid #E3D93B;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
 }
@@ -32,7 +41,12 @@ p {
 }
 
 
-/* bootstrap overrides */
+/**************************
+     BOOTSTRAP OVERRIDES
+***************************/
+.container {
+  max-width: 800px;
+}
 
 .page-header {
   border-bottom: 15px solid #C3BB38;
@@ -91,9 +105,18 @@ button > a:hover {
 
 .headerLogo {
   width: 50%;
-  margin-left: 23%;
 
 }
+
+.ninjaDividerDiv {
+  max-width: 500px;
+}
+
+.ninjaDivider {
+  width: 100%;
+  margin-top: 30px;
+}
+
 
 .navbar-inverse {
   background-color: #232323;
@@ -103,13 +126,19 @@ ul > li.active {
   color: #232323;
   background-color: #C0C0C0;
   padding: 0px;
-
 }
 
 
 .btn-primary {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
   background-color: #C3BB38;
   border-color: #C3BB38;
+  font-size: 1.5em;
+  font-weight: 800;
+  border-radius: 10px;
 }
 
 .btn-primary:hover {
