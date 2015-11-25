@@ -16,7 +16,15 @@ body {
   background-color: #232323;
 }
 
+.topContainer {
+  background-color: #FFF;
+  width: 100%;
+}
+
+
 /* bootstrap overrides */
+
+
 
 a {
   color: #FFF;
@@ -37,6 +45,12 @@ button > a:hover {
   font-weight: 800;
   font-size: 15px;
   border-radius: 0px;
+}
+
+.headerLogo {
+  width: 50%;
+  margin-left: 23%;
+
 }
 
 .navbar-inverse {
